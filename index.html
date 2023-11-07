@@ -133,7 +133,8 @@
           </div>
         </div>
         <div class="row justify-content-center pt-4 bg-info d-flex flex-wrap">
-
+          
+          <!-- first name -->
           <div class="col-4 ms-2">
             <form class="justify-content-center">
               <div class="mb-3">
@@ -143,6 +144,7 @@
             </form>
           </div>
 
+          <!-- last name -->
           <div class="col-4 me-2">
             <form class="justify-content-center">
               <div class="mb-3">
@@ -152,7 +154,8 @@
             </form>
           </div>
 
-          <div class="col-4 me-2">
+          <!-- email -->
+          <div class="col-4 ms-2">
             <form class="justify-content-center">
               <div class="mb-3">
                 <label for="exampleFormControlInput1" class="form-label">Email address</label>
@@ -161,6 +164,7 @@
             </form>
           </div>
 
+          <!-- hours requested -->
           <div class="col-4 me-2">
             <form class="justify-content-center">
               <div class="mb-3">
@@ -170,15 +174,36 @@
             </form>
           </div>
 
-          <div class="col-4 me-2">
+          <!-- select -->
+          <div class="col-4 ms-2">
             <form class="justify-content-center">
               <div class="mb-3">
+                <label for="typeofwork" class="form-label">Type of work</label>
                 <select class="form-select" aria-label="Type of work">
-                  <option selected>Type of work</option>
+                  <option selected>Select the type of work</option>
                   <option value="1">Backend Development</option>
                   <option value="2">Frontend Development</option>
                   <option value="3">Project Analisyst</option>
                 </select>
+              </div>
+            </form>
+          </div>
+
+          <!-- discount code -->
+          <div class="col-4 me-2">
+            <form class="justify-content-center">
+              <div class="mb-3">
+                <label for="discountcode" class="form-label">Discount Code</label>
+                <input type="text" class="form-control" id="discountcode" placeholder="Discount code">
+              </div>
+            </form>
+          </div>
+
+          <div class="col-8">
+            <form class="justify-content-center">
+              <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" rows="3" placeholder="Specify your work commission"></textarea>
               </div>
             </form>
           </div>
